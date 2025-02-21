@@ -3,5 +3,6 @@ py_test(
     srcs = ["test_math_utils.py"],
     deps = [
         "//src:math_utils",
+        "@pip_deps//:pytest",
     ],
 )
